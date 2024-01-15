@@ -1,0 +1,202 @@
+[
+    {
+        "word": "Eclipse",
+        "tabooWords": [
+            "Sun",
+            "Moon",
+            "Shadow",
+            "Astronomy",
+            "Orbit"
+        ]
+    },
+    {
+        "word": "Museum",
+        "tabooWords": [
+            "Artifacts",
+            "Exhibit",
+            "History",
+            "Gallery",
+            "Curator"
+        ]
+    },
+    {
+        "word": "Garden",
+        "tabooWords": [
+            "Plants",
+            "Flowers",
+            "Grow",
+            "Nature",
+            "Dig"
+        ]
+    },
+    {
+        "word": "Ballet",
+        "tabooWords": [
+            "Dance",
+            "Tutu",
+            "Stage",
+            "Performance",
+            "Classical"
+        ]
+    },
+    {
+        "word": "Robot",
+        "tabooWords": [
+            "Machine",
+            "Artificial",
+            "Technology",
+            "Program",
+            "Mechanical"
+        ]
+    },
+    {
+        "word": "Circus",
+        "tabooWords": [
+            "Clown",
+            "Tent",
+            "Acrobat",
+            "Animals",
+            "Performance"
+        ]
+    },
+    {
+        "word": "Sushi",
+        "tabooWords": [
+            "Rice",
+            "Fish",
+            "Japanese",
+            "Roll",
+            "Wasabi"
+        ]
+    },
+    {
+        "word": "Jazz",
+        "tabooWords": [
+            "Music",
+            "Blues",
+            "Saxophone",
+            "Band",
+            "Improvise"
+        ]
+    },
+    {
+        "word": "Pirate",
+        "tabooWords": [
+            "Ship",
+            "Treasure",
+            "Sea",
+            "Skull",
+            "Map"
+        ]
+    },
+    {
+        "word": "Desert",
+        "tabooWords": [
+            "Sand",
+            "Hot",
+            "Cactus",
+            "Dry",
+            "Camel"
+        ]
+    },
+    {
+        "word": "Yoga",
+        "tabooWords": [
+            "Stretch",
+            "Pose",
+            "Mat",
+            "Meditation",
+            "Peace"
+        ]
+    },
+    {
+        "word": "Volcano",
+        "tabooWords": [
+            "Lava",
+            "Eruption",
+            "Crater",
+            "Ash",
+            "Magma"
+        ]
+    },
+    {
+        "word": "Lighthouse",
+        "tabooWords": [
+            "Beacon",
+            "Sea",
+            "Light",
+            "Coast",
+            "Navigation"
+        ]
+    },
+    {
+        "word": "Dinosaur",
+        "tabooWords": [
+            "Jurassic",
+            "Fossil",
+            "Extinct",
+            "Prehistoric",
+            "T-Rex"
+        ]
+    },
+    {
+        "word": "Chocolate",
+        "tabooWords": [
+            "Sweet",
+            "Cocoa",
+            "Bar",
+            "Dessert",
+            "Milk"
+        ]
+    },
+    {
+        "word": "Marathon",
+        "tabooWords": [
+            "Race",
+            "Run",
+            "Distance",
+            "Finish",
+            "Athlete"
+        ]
+    },
+    {
+        "word": "Vampire",
+        "tabooWords": [
+            "Blood",
+            "Night",
+            "Fangs",
+            "Dracula",
+            "Immortal"
+        ]
+    },
+    {
+        "word": "Zoo",
+        "tabooWords": [
+            "Animals",
+            "Cages",
+            "Keeper",
+            "Wild",
+            "Safari"
+        ]
+    },
+    {
+        "word": "Ghost",
+        "tabooWords": [
+            "Haunt",
+            "Spirit",
+            "Scary",
+            "Invisible",
+            "Paranormal"
+        ]
+    },
+    {
+        "word": "Opera",
+        "tabooWords": [
+            "Singing",
+            "Theatre",
+            "Drama",
+            "Performance",
+            "Classical"
+        ]
+    }
+]

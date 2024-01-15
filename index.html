@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taboo Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div id="game" class="game-container">
+        <div id="scoreboard" class="scoreboard">
+            <div id="team-red-score" class="team-score">Red Team: 0</div>
+            <div id="team-blue-score" class="team-score">Blue Team: 0</div>
+        </div>
+        <div id="current-team" class="current-team">Red Team's Turn</div>
+        <div id="timer" class="timer">10</div>
+        <div id="card" class="taboo-card">
+            <div id="word-to-guess" class="word-to-guess"></div>
+            <ul id="taboo-words-list" class="taboo-words-list"></ul>
+        </div>
+        <div class="button-container">
+            <button id="mistake-button" class="control-btn">❌</button>
+            <button id="skip-button" class="control-btn">Skip</button>
+            <button id="success-button" class="control-btn">✔</button>
+        </div>
+    </div>
+    <div id="pause-screen" class="pause-screen" style="display: none;">
+        <div class="pause-container">
+            <p id="pause-message">Get ready for the next round!</p>
+            <button id="continue-button" class="control-btn">Continue</button>
+        </div>
+    </div>
+    <div id="end-screen" class="end-screen" style="display: none;">
+        <div class="end-container">
+            <p id="winning-team-name"></p>
+            <button id="restart-button" class="control-btn">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

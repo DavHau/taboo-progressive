@@ -1,0 +1,45 @@
+A very simplistic progressive web app to play taboo with friends
+It should be a frontend only app without requiring a backend
+
+The app should display a taboo card including
+   - the word to guess
+   - a list of taboo words
+   - a score for each team (red and blue team)
+   - an indicator which teams turn it currently is
+   - a timer counting down 60s in realtime
+      - never reset the timer
+      - when it's 0, the teams will switch turns
+   - 3 buttons:
+      - one "❌" (mistake) button for when a mistake was made
+      - a "skip" button to skip the card
+      - a "✔" (success) button for when the word was guessed correctly
+   - the counter of the current team should:
+      - decreased when the mistake button is presed
+      - and increased when the success button is pressed
+
+
+taboo words are read from taboo-words.json, like this (file already exists):
+```taboo-words.json
+[
+    {
+        "word": "Eclipse",
+        "tabooWords": [
+            "Sun",
+            "Moon",
+            "Shadow",
+            "Astronomy",
+            "Orbit"
+        ]
+    },
+    {
+        "word": "Museum",
+        "tabooWords": [
+            "Artifacts",
+            "Exhibit",
+            "History",
+            "Gallery",
+            "Curator"
+        ]
+    }
+]
+```

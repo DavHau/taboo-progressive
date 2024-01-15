@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+.taboo-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.word-to-guess {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.taboo-words-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.taboo-words-list li {
+    margin-bottom: 10px;
+}
+
+.next-card-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+/* Added styles for the new scoreboard, team indicator, timer, and control buttons */
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.team-score {
+    font-size: 20px;
+}
+
+.current-team {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.timer {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.control-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.control-btn:hover {
+    opacity: 0.8;
+}
+
+/* Styles for the pause screen and continue button */
+.pause-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.pause-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#continue-button {
+    margin-top: 20px;
+}
+
+/* Styles for the end screen */
+.end-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.end-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
